@@ -62,7 +62,7 @@
 
 .bonjour-page{
     display: grid;
-    width: 100vw;
+    width: 97vw;
     height: 90vh;
     grid-template-columns: repeat(2, 1fr);
     background-color: #95261F;
