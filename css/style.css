@@ -57,3 +57,84 @@
     src: url('fonts/CircularStd-BoldItalic.otf') format('opentype');
     font-style: italic;
 }
+
+/* Bonjour page - Sebastian */
+
+.bonjour-page{
+    display: grid;
+    width: 100vw;
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #95261F;
+    color: #EDE5BB;
+    gap: 1em;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.bonjour-page-item{
+    padding: 3em;
+}
+
+.bonjour-page-illustrations-container{
+    display: grid;
+    height: 70vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.illust1-align{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.illust2-align{
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    transform: rotate(-14deg);
+}
+
+.illust3-align{
+    display: flex;
+    justify-content: start;
+    align-self: end;
+    transform: rotate(11deg);
+}
+
+.illust4-align{
+    display: flex;
+    justify-content: center;
+    align-self: end;
+}
+
+.illustration-resize{
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+}
+
+.illustration-resize2{
+    max-width: 60%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
+}
+
+.bonjour-page-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.bonjour-page-header2{
+    font-family: CircularStdBlack;
+    font-size: 64pt;
+}
+
+.bonjour-page-text{
+    font-family: CircularStdBook;
+    font-size: 24pt;
+}
