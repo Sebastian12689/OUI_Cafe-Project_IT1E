@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'CircularStdLight';
+    src: url('fonts/CircularStd-Light.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStdMedium';
+    src: url('fonts/CircularStd-Medium.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStdBook';
+    src: url('fonts/CircularStd-Book.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStdBlack';
+    src: url('fonts/CircularStd-Black.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStdBold';
+    src: url('fonts/CircularStd-Bold.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStdLight';
+    src: url('fonts/CircularStd-Light\ Italic.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CircularStdMedium';
+    src: url('fonts/CircularStd-MediumItalic.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CircularStdBook';
+    src: url('fonts/CircularStd-BookItalic.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CircularStdBlack';
+    src: url('fonts/CircularStd-BlackItalic.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CircularStdBold';
+    src: url('fonts/CircularStd-BoldItalic.otf') format('opentype');
+    font-style: italic;
+}
