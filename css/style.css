@@ -153,13 +153,36 @@
 .tryout-page{
     display: grid;
     width: 100vw;
-    height: 90vh;
+    height: 77vh;
     background-color: #00657C;
+    color: #EDE5BB;
     grid-template-columns: 27% 46% 27%;
+}
+
+.tryout-page-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
 }
 
 .tryout-image-fit{
     object-fit: cover;
     max-width: 27vw;
     max-height: 90vh;
+}
+
+.tryout-page-header{
+    padding-top: 5vw;
+    font-family: CircularStdBlack;
+    font-size: 3vw;
+    flex-grow: 0.2;
+}
+
+.tryout-page-text{
+    font-family: CircularStdBook;
+    font-size: 1.2vw;
 }
