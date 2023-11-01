@@ -155,7 +155,7 @@
 .tryout-page{
     display: grid;
     width: 100vw;
-    height: 77vh;
+    height: 84vh;
     background-color: #00657C;
     color: #EDE5BB;
     grid-template-columns: 27% 46% 27%;
