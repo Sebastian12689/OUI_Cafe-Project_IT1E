@@ -58,18 +58,18 @@
     font-style: italic;
 }
 
-/* Bonjour page - Sebastian */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Bonjour page - Sebastian */
+
 .bonjour-page{
     display: grid;
     width: 100vw;
-    height: 90vh;
+    height: 98vh;
     grid-template-columns: repeat(2, 1fr);
     background-color: #95261F;
     color: #EDE5BB;
@@ -79,13 +79,13 @@
 }
 
 .bonjour-page-item{
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .bonjour-page-illustrations-container{
     display: grid;
-    height: 70vh;
+    height: 98vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
 }
@@ -138,10 +138,28 @@
 
 .bonjour-page-header2{
     font-family: CircularStdBlack;
-    font-size: 5vw;
+    font-size: 4.8vw;
+    flex-grow: 0.5;
+    padding-top: 4vw;
 }
 
 .bonjour-page-text{
     font-family: CircularStdBook;
-    font-size: 2.5vw;
+    font-size: 2vw;
+}
+
+/* End of Bonjour page */
+
+.tryout-page{
+    display: grid;
+    width: 100vw;
+    height: 90vh;
+    background-color: #00657C;
+    grid-template-columns: 27% 46% 27%;
+}
+
+.tryout-image-fit{
+    object-fit: cover;
+    max-width: 27vw;
+    max-height: 90vh;
 }
