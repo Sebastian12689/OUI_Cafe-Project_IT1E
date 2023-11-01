@@ -64,10 +64,74 @@
     box-sizing: border-box;
 }
 
-/*Main Page and Header - Philip */
+/*Main Page and Header and Navbar - Philip */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainpage-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.oui-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #95261F;
+    font-size: 4rem;
+    padding: 0.6rem;
+    z-index: 2;
+    text-decoration: none;
+
+}
+
+.middle-text {
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    transform: translateY(-50%);
+    color: #EDE5BB;
+    font-size: 6rem;
+    padding: 0.6rem;
+}
+
+.small-text {
+    position: absolute;
+    top: 75%;
+    left: 4%;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.wheretofindus{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    color: #00657C;
+    background-color: #EDE5BB;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+
+.image-container {
+    background-image: url('img/mainpage-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
 
 .header {
-    position: fixed;  /* Makes it permanently attached to the top right corner */
+    position: fixed;
     top: 0;
     right: 0;
     background-color: #EDE5BB;
@@ -75,10 +139,11 @@
     padding: 10px;
     display: inline-block;
     border-radius: 0 0 0 10px;
+    z-index: 1;
 }
 
 .navbar {
-    display: inline-block; /* Makes the navbar appear next to the header */
+    display: inline-block;
 }
 
 .navbar ul {
