@@ -166,8 +166,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
     padding-bottom: 1vw;
 }
 
@@ -178,7 +178,7 @@
 }
 
 .tryout-page-header{
-    padding-top: 5vw;
+    padding-top: 10vw;
     font-family: CircularStdBlack;
     font-size: 3vw;
     flex-grow: 0.2;
@@ -186,7 +186,7 @@
 
 .tryout-page-text{
     font-family: CircularStdBook;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
 }
 
 /* End of tryout page - Sebastian */
