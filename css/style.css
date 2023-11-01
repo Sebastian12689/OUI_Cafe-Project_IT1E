@@ -64,6 +64,45 @@
     box-sizing: border-box;
 }
 
+/*Main Page and Header - Philip */
+
+.header {
+    position: fixed;  /* Makes it permanently attached to the top right corner */
+    top: 0;
+    right: 0;
+    background-color: #EDE5BB;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0 0 0 10px;
+}
+
+.navbar {
+    display: inline-block; /* Makes the navbar appear next to the header */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 /* Bonjour page - Sebastian */
 
 .bonjour-page{
