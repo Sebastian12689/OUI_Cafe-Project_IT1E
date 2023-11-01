@@ -150,6 +150,8 @@
 
 /* End of Bonjour page */
 
+/* Start of tryout page - Sebastian */
+
 .tryout-page{
     display: grid;
     width: 100vw;
@@ -186,3 +188,5 @@
     font-family: CircularStdBook;
     font-size: 1.2vw;
 }
+
+/* End of tryout page - Sebastian */
