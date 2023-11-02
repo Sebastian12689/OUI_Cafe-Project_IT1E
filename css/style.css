@@ -30,7 +30,7 @@
 
 @font-face {
     font-family: 'CircularStdLight';
-    src: url('fonts/CircularStd-Light\ Italic.otf') format('opentype');
+    src: url('fonts/CircularStd-Light Italic.otf') format('opentype');
     font-style: italic;
 }
 
@@ -92,7 +92,7 @@ body, html {
 
 .mainpage-eyecatcher {
     position: absolute;
-    font-family:Caveat, serif;
+    font-family: Caveat;
     top: 65%;
     left: 3%;
     transform: translateY(-50%);
@@ -104,7 +104,7 @@ body, html {
 
 .mainpage-subtext {
     position: absolute;
-    font-family: CircularStd, serif;
+    font-family: CircularStd;
     top: 75%;
     left: 4%;
     color: white;
@@ -120,7 +120,7 @@ body, html {
     color: #00657C;
     background-color: #EDE5BB;
     font-size: 1rem;
-    font-family: "Circular Std Book", serif;
+    font-family: "Circular Std Book";
     border: none;
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 5rem;
