@@ -309,5 +309,45 @@
     font-family: CircularStdBook;
     font-size: 1.3vw;
 }
-
 /* End of tryout page - Sebastian */
+
+/* Start of coffee page - Yaroslav */
+.coffee-page{
+    display: grid;
+    width: 100vw;
+    height: auto;
+    max-height: 83.5vh;
+    grid-template-columns: 35% 30% 35%;
+    background-color: #95261F;
+    color: #EDE5BB;
+}
+.coffee-page-img{
+    object-fit: cover;
+    max-width: 30vw;
+    max-height: 83.5vh;
+}
+.coffee-page-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: CircularStdBook;
+    font-size: 1.2vw;
+    line-height: 2em;
+}
+.header-for-coffee-page{
+    display: flex;
+    padding: 5vh;
+    font-family: CircularStdBlack;
+    font-size: 2.5vw;
+    flex-grow: 0.2;
+}
+.coffee-page-text > p{
+    padding: 5vh;
+    flex-grow: 0.5;
+}
+.coffee-page a{
+    color: #EDE5BB;
+    font-size: 1.8vw;
+}
+/* End of coffee page - Yarosalv */
