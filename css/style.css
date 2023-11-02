@@ -73,58 +73,67 @@
 /*Main Page and Header and Navbar - Philip */
 
 .mainpage-img {
-    max-width: 101%;
+    max-width: 100%;
     height: auto;
 }
 
 .oui-logo {
     position: absolute;
-    top: 0;
-    left: 0;
+    transform: scale(0.5); /* makes the logo smaller */
+    top:  -7.5vw;
+    left: -13vw;
     color: #95261F;
-    font-size: 4rem;
-    padding: 0.6rem;
+    font-size: 5vw;
+    padding: 0;
     z-index: 2;     /* z-index is used to make sure that the logo is on top of the image */
     text-decoration: none;
-    cursor: default; /*makes the cursor not change when hovering over the logo */
 
 }
 
-.mainpage-eyecatcher {
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 3%; /* Adjust as needed */
+    transform: translateY(-50%);
+    color: #EDE5BB;
+}
+
+.mainpage-eyecatcher {
     font-family: Caveat;
     top: 65%;
     left: 3%;
     transform: translateY(-50%);
     color: #EDE5BB;
-    font-size: 6rem;
-    padding: 0.6rem;
-    cursor: default;
+    font-size: 5vw;
+    padding: 0.78vw;
+
 }
 
 .mainpage-subtext {
-    position: absolute;
     font-family: CircularStdBook;
     top: 75%;
     left: 4%;
     color: white;
-    font-size: 1.5rem;
-    padding: 0.6rem;
-    cursor: default;
+    font-size: 1.875vw;
+    padding:  0.78vw;
+
 }
 
-.mainpage-button{
-    position: absolute;
-    top: 90%;
-    left: 5%;
+.mainpage-button {
     color: #00657C;
     background-color: #EDE5BB;
-    font-size: 1rem;
+    font-size: 1.25vw;
     font-family: CircularStdBook;
     border: none;
-    padding: 1rem 2rem 1rem 2rem;
-    border-radius: 5rem;
+    padding: 1.25vw 2.5vw 1.25vw 2.5vw;
+    border-radius: 6.25vw;
+    cursor: pointer;
 }
+
 
 
 .mainpage-img-container {  /*makes the image appear as a background image */
@@ -142,9 +151,9 @@
     right: 0;
     background-color: #EDE5BB;
     color: #333;
-    padding: 0.625rem;
+    padding: 0.78125vw;
     display: inline-block;
-    border-radius: 0 0 0 0.625rem;
+    border-radius: 0 0 0 0.78125vw;
     z-index: 1;
 }
 
@@ -161,7 +170,7 @@
 
 .navbar li {
     display: inline-block;
-    margin-right: 1.25rem;
+    margin-right: 1.5625vw;
 }
 
 .navbar li:last-child {  /* removes the margin-right from the last list item */
