@@ -84,30 +84,33 @@ body, html {
     color: #95261F;
     font-size: 4rem;
     padding: 0.6rem;
-    z-index: 2;
+    z-index: 2;     /* z-index is used to make sure that the logo is on top of the image */
     text-decoration: none;
+    cursor: default; /*makes the cursor not change when hovering over the logo */
 
 }
 
 .mainpage-eyecatcher {
     position: absolute;
-    font-family: Caveat;
+    font-family:Caveat, serif;
     top: 65%;
     left: 3%;
     transform: translateY(-50%);
     color: #EDE5BB;
     font-size: 6rem;
     padding: 0.6rem;
+    cursor: default;
 }
 
 .mainpage-subtext {
     position: absolute;
-    font-family: "Circular Std Book";
+    font-family: CircularStd, serif;
     top: 75%;
     left: 4%;
     color: white;
     font-size: 1.5rem;
     padding: 0.6rem;
+    cursor: default;
 }
 
 .mainpage-button{
@@ -117,17 +120,14 @@ body, html {
     color: #00657C;
     background-color: #EDE5BB;
     font-size: 1rem;
-    font-family: "Circular Std Book";
+    font-family: "Circular Std Book", serif;
     border: none;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     border-radius: 5rem;
 }
 
 
-.mainpage-img-container {
+.mainpage-img-container {  /*makes the image appear as a background image */
     background-image: url('img/mainpage-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +137,7 @@ body, html {
 
 
 .header {
-    position: fixed;
+    position: fixed; /* Fixed makes header permanently attached to the top of the page */
     top: 0;
     right: 0;
     background-color: #EDE5BB;
@@ -149,7 +149,7 @@ body, html {
 }
 
 .navbar {
-    display: inline-block;
+    display: inline-block;  /* makes navbar list items appear from left to right */
 }
 
 .navbar ul {
@@ -164,11 +164,11 @@ body, html {
     margin-right: 1.25rem;
 }
 
-.navbar li:last-child {
+.navbar li:last-child {  /* removes the margin-right from the last list item */
     margin-right: 0;
 }
 
-.navbar a {
+.navbar a {    /* makes the navbar links clickable */
     color: #00657C;
     text-decoration: none;
     font-size: 18px;
