@@ -1,4 +1,10 @@
 @font-face {
+    font-family: Caveat;
+    src: url('fonts/Caveat-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'CircularStdLight';
     src: url('fonts/CircularStd-Light.otf') format('opentype');
     font-style: normal;
