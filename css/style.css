@@ -338,7 +338,7 @@ html{
 }
 .grid-container-1{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     /* grid-template-rows:10vh 60vh 15vh; */
     
     
@@ -376,7 +376,7 @@ html{
 }
 .grid-container-2{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     /* grid-template-rows:10vh 45vh; */
 }
 .products-2{
@@ -393,7 +393,7 @@ html{
 }
 .grid-container-3{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     /* grid-template-rows: 10vh 45vh 50vh; */
 }
 .pain{
@@ -414,7 +414,7 @@ html{
 }
 .grid-container-4{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     /* grid-template-rows:10vh 60vh; */
 }
 .sweet{
