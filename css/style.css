@@ -437,9 +437,20 @@ body{
 }
 
 .money-4{
-    display: grid;
-    grid-template-rows:36vh 6vh;
-    gap:2vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.macaron-price{
+    flex-grow: 1;
+}
+
+.other-prices{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2vh;
 }
 
 .maca{
