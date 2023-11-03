@@ -100,8 +100,8 @@ html{
     justify-content: center;
     align-items: flex-start;
     position: absolute;
-    top: 50%; 
-    left: 3%; 
+    top: 50%; /* Adjust as needed */
+    left: 3%; /* Adjust as needed */
     transform: translateY(-50%);
     color: #EDE5BB;
 }
@@ -567,10 +567,14 @@ iframe{
     width: 3vh;
 }
 .footer-item-left{
-    flex-grow: 1;
-    padding: 1vh;
+    justify-content: left;
+    padding: 1vw 1vh 1vh 1vw;
+    border-radius: 6.25vw;
+    background-color: #EDE5BB;
 }
 .footer-item-middle{
-    flex-grow: 1;
-    padding: 1vh;
+    margin-left: 45vw;
+    padding: 1vw 1vh 1vh 1vw;
+    border-radius: 6.25vw;
+    background-color: #EDE5BB;
 }
