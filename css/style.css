@@ -315,13 +315,11 @@ html{
     font-size: 1.3vw;
 }
 /* End of tryout page - Sebastian */
-/* body{
-    background-color: #EDE5BB;
-    padding: 150px;
-    color:#A62118; */
 
-    
-/* } */
+body{
+    background-color: #EDE5BB;
+}
+
 .menu{
     display: flex;
     justify-content: center;
@@ -343,11 +341,13 @@ html{
     
     
 }
+
 .coffee-tea{
     display: flex;
     grid-column: 2/3;
     font-size: 140%;
 }
+
 .products{
     display: flex;
     flex-direction: column;
@@ -376,7 +376,7 @@ html{
 }
 .grid-container-2{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 2fr;
     /* grid-template-rows:10vh 45vh; */
 }
 .products-2{
@@ -393,7 +393,7 @@ html{
 }
 .grid-container-3{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 2fr;
     /* grid-template-rows: 10vh 45vh 50vh; */
 }
 .pain{
@@ -414,7 +414,7 @@ html{
 }
 .grid-container-4{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 2fr;
     /* grid-template-rows:10vh 60vh; */
 }
 .sweet{
@@ -477,3 +477,33 @@ html{
     font-size: 1.8vw;
 }
 /* End of coffee page - Yarosalv */
+
+/* Start of location page - Yaroslav */
+.location-page{
+    background-color: #00657C;
+    color: #EDE5BB;
+    font-family: CircularStdBook;
+    font-size: 2vw;
+    line-height: 3em;
+}
+
+.location-grid{
+    display: grid;
+    width: 100%;
+    height: auto;
+    max-height: 83.5vh;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2.5vh;
+}
+.location-page > h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 4vh;
+    font-family: CircularStdBlack;
+    font-size: 4vw;
+}
+.part-of-location-page-grid{
+    display: flex;
+}
+/* End of location page - Yaroslav */
