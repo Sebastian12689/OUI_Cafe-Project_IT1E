@@ -449,9 +449,11 @@ body{
     color: #EDE5BB;
 }
 .coffee-page-img{
+    display: flex;
     object-fit: cover;
     max-width: 30vw;
     max-height: 83.5vh;
+    height: 100%;
 }
 .coffee-page-text{
     display: flex;
