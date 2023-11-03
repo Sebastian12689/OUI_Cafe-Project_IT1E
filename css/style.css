@@ -527,6 +527,7 @@ body{
     font-family: CircularStdBook;
     font-size: 2vw;
     line-height: 3em;
+    height: auto;
 }
 
 .location-grid{
@@ -547,5 +548,9 @@ body{
 }
 .part-of-location-page-grid{
     display: flex;
+}
+iframe{
+    width: 80%;
+    height: 80%;
 }
 /* End of location page - Yaroslav */
