@@ -557,9 +557,20 @@ iframe{
 
 .footer-container{
     display: flex;
+    font-family: CircularStdBook;
+    background-color: #00657C;
+    font-size: 1.5vw;
 }
 
 .social-media-resize{
     height: 3vh;
     width: 3vh;
+}
+.footer-item-left{
+    flex-grow: 1;
+    padding: 1vh;
+}
+.footer-item-middle{
+    flex-grow: 1;
+    padding: 1vh;
 }
