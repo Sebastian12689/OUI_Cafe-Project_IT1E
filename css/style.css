@@ -315,13 +315,11 @@ html{
     font-size: 1.3vw;
 }
 /* End of tryout page - Sebastian */
-/* body{
-    background-color: #EDE5BB;
-    padding: 150px;
-    color:#A62118; */
 
-    
-/* } */
+body{
+    background-color: #EDE5BB;
+}
+
 .menu{
     display: flex;
     justify-content: center;
@@ -338,16 +336,18 @@ html{
 }
 .grid-container-1{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     /* grid-template-rows:10vh 60vh 15vh; */
     
     
 }
+
 .coffee-tea{
     display: flex;
     grid-column: 2/3;
     font-size: 140%;
 }
+
 .products{
     display: flex;
     flex-direction: column;
