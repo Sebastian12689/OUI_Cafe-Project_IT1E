@@ -350,7 +350,7 @@ body{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
-    gap:5vh;
+    gap:2vh;
 }
 
 .tea{
@@ -360,13 +360,13 @@ body{
 .money{
     display: flex;
     flex-direction: column;
-    gap:5vh;
+    gap:2vh;
 }
 
 .money-2{
     display: flex;
     flex-direction: column;
-    gap:5vh;
+    gap:2vh;
 }
 
 .cool-drink{
@@ -384,7 +384,7 @@ body{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
-    gap:5vh;
+    gap:2vh;
 }
 
 .food{
@@ -409,13 +409,13 @@ body{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
-    gap:5vh;
+    gap:2vh;
 }
 
 .money-3{
     display: flex;
     flex-direction: column;
-    gap:5vh;
+    gap:2vh;
 }
 
 .grid-container-4{
@@ -433,13 +433,13 @@ body{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
-    gap:5vh;
+    gap:2vh;
 }
 
 .money-4{
     display: grid;
     grid-template-rows:36vh 6vh;
-    gap:5vh;
+    gap:2vh;
 }
 
 .maca{
