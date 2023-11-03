@@ -337,15 +337,15 @@ body{
 .grid-container-1{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* grid-template-rows:10vh 60vh 15vh; */
-    
-    
+    /* grid-template-rows:10vh 60vh 15vh; */ 
 }
+
 .coffee-tea{
     display: flex;
     grid-column: 2/3;
     font-size: 140%;
 }
+
 .products{
     display: flex;
     flex-direction: column;
