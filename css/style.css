@@ -453,7 +453,7 @@ body{
     object-fit: cover;
     max-width: 30vw;
     max-height: 83.5vh;
-    height: auto;
+    height: 100%;
 }
 .coffee-page-text{
     display: flex;
