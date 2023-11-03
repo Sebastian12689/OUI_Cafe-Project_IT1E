@@ -323,15 +323,15 @@ body{
 .menu{
     display: flex;
     justify-content: center;
-    font-size: 400%;
-    margin: 40px; 
+    font-size: 4vw;
+    margin-top: 5vh;
 }
 
 .drink{
     display: flex;
     justify-content: center;
-    font-size: 200%;
-    margin:40px;
+    font-size: 2vw;
+    margin: 5vw;
 }
 
 .grid-container-1{
@@ -342,13 +342,15 @@ body{
 .coffee-tea{
     display: flex;
     grid-column: 2/3;
-    font-size: 140%;
-    gap:5vh;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
 }
 
 .products{
     display: flex;
     flex-direction: column;
+    margin-bottom: 2vw;
+    font-size: 1.3vw;
     grid-column: 2/3;
     gap:2vh;
 }
@@ -360,19 +362,22 @@ body{
 .money{
     display: flex;
     flex-direction: column;
+    font-size: 1.3vw;
     gap:2vh;
 }
 
 .money-2{
     display: flex;
     flex-direction: column;
+    font-size: 1.3vw;
     gap:2vh;
 }
 
 .cool-drink{
     display: flex;
     grid-column: 2/3;
-    font-size: 140%;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
 }
 
 .grid-container-2{
@@ -383,6 +388,7 @@ body{
 .products-2{
     display: flex;
     flex-direction: column;
+    font-size: 1.3vw;
     grid-column: 2/3;
     gap:2vh;
 }
@@ -390,8 +396,8 @@ body{
 .food{
     display: flex;
     justify-content: center;
-    font-size: 200%;
-    margin:40px;
+    font-size: 2vw;
+    margin: 5vw;
 }
 
 .grid-container-3{
@@ -401,20 +407,24 @@ body{
 
 .pain{
     display: flex;
-    font-size: 140%;
+    font-size: 1.8vw;
     grid-column: 2/3;
+    margin-bottom: 1vw;
 }
 
 .products-3{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
+    font-size: 1.3vw;
     gap:2vh;
+    margin-bottom: 2vw;
 }
 
 .money-3{
     display: flex;
     flex-direction: column;
+    font-size: 1.3vw;
     gap:2vh;
 }
 
@@ -426,20 +436,24 @@ body{
 .sweet{
     display: flex;
     grid-column: 2/3;
-    font-size: 140%;
+    font-size: 1.8vw;
 }
 
 .products-4{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
+    font-size: 1.3vw;
     gap:2vh;
+    margin-bottom: 3vw;
 }
 
 .money-4{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    font-size: 1.3vw;
+    margin-bottom: 3vw;
 }
 
 .macaron-price{
