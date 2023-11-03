@@ -324,22 +324,19 @@ body{
     display: flex;
     justify-content: center;
     font-size: 400%;
-    margin: 40px;
-
-    
+    margin: 40px; 
 }
+
 .drink{
     display: flex;
     justify-content: center;
     font-size: 200%;
     margin:40px;
 }
+
 .grid-container-1{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* grid-template-rows:10vh 60vh 15vh; */
-    
-    
 }
 
 .coffee-tea{
@@ -355,86 +352,96 @@ body{
     grid-column: 2/3;
     gap:5vh;
 }
+
 .tea{
     font-size: 90%;
-    
-    
 }
+
 .money{
     display: flex;
     flex-direction: column;
     gap:5vh;
 }
+
 .money-2{
     display: flex;
     flex-direction: column;
     gap:5vh;
 }
+
 .cool-drink{
     display: flex;
     grid-column: 2/3;
     font-size: 140%;
 }
+
 .grid-container-2{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* grid-template-rows:10vh 45vh; */
 }
+
 .products-2{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
     gap:5vh;
 }
+
 .food{
     display: flex;
     justify-content: center;
     font-size: 200%;
     margin:40px;
 }
+
 .grid-container-3{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* grid-template-rows: 10vh 45vh 50vh; */
 }
+
 .pain{
     display: flex;
     font-size: 140%;
     grid-column: 2/3;
 }
+
 .products-3{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
     gap:5vh;
 }
+
 .money-3{
     display: flex;
     flex-direction: column;
     gap:5vh;
 }
+
 .grid-container-4{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* grid-template-rows:10vh 60vh; */
 }
+
 .sweet{
     display: flex;
     grid-column: 2/3;
     font-size: 140%;
 }
+
 .products-4{
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
     gap:5vh;
 }
+
 .money-4{
     display: grid;
-    /* flex-direction: column; */
     grid-template-rows:36vh 6vh;
     gap:5vh;
 }
+
 .maca{
     font-size: 90%;
 }
@@ -454,7 +461,7 @@ body{
     object-fit: cover;
     max-width: 30vw;
     max-height: 83.5vh;
-    height: auto;
+    height: 100%;
 }
 .coffee-page-text{
     display: flex;
