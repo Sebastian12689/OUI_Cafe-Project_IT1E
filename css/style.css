@@ -315,13 +315,11 @@ html{
     font-size: 1.3vw;
 }
 /* End of tryout page - Sebastian */
-/* body{
-    background-color: #EDE5BB;
-    padding: 150px;
-    color:#A62118; */
 
-    
-/* } */
+body{
+    background-color: #EDE5BB;
+}
+
 .menu{
     display: flex;
     justify-content: center;
