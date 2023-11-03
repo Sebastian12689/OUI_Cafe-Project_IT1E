@@ -320,6 +320,11 @@ body{
     background-color: #EDE5BB;
 }
 
+#section4{
+    font-family: CircularStdBook;
+    color: #95261F;
+}
+
 .menu{
     display: flex;
     justify-content: center;
@@ -437,6 +442,7 @@ body{
     display: flex;
     grid-column: 2/3;
     font-size: 1.8vw;
+    margin-bottom: 1vw;
 }
 
 .products-4{
