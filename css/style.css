@@ -306,7 +306,7 @@ html{
 .tryout-page-header{
     padding-top: 10vw;
     font-family: CircularStdBlack;
-    font-size: 2.8vw;
+    font-size: 3vw;
     flex-grow: 0.2;
 }
 
@@ -554,3 +554,22 @@ iframe{
     height: 80%;
 }
 /* End of location page - Yaroslav */
+
+/* Start of footer - Yaroslav 
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer img{
+    height: 3%;
+    width: 3%;
+}
+.footer-social-media{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.footer-copyright{
+    display: flex;
+}
+End of footer */
