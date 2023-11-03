@@ -555,21 +555,11 @@ iframe{
 }
 /* End of location page - Yaroslav */
 
-/* Start of footer - Yaroslav 
-.footer{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.footer img{
-    height: 3%;
-    width: 3%;
-}
-.footer-social-media{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.footer-copyright{
+.footer-container{
     display: flex;
 }
-End of footer */
+
+.social-media-resize{
+    height: 20%;
+    width: 20%;
+}
